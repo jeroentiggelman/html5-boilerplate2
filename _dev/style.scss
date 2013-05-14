@@ -1,0 +1,56 @@
+/*
+------- MAIN INFO -------
+Writer: Jeroen Tiggelman
+Date of creation: 14/05/2013
+Place of creation: photoGRAPHICdesign
+Project: HTML5 basic boilerplate
+*/
+
+@import "normalize";
+@import "reset";
+@import "typo";
+
+/* ---- colors ----*/
+$lightestBlue: #bada66;
+
+/* ---- breakpoints media queries ---- */
+$break-small: 500px;
+$break-large: 800px;
+
+/* ----!NAVIGATION ---- */
+header {
+	
+}
+footer {
+
+}
+
+/* ---- page content ---- */
+
+.wrapper {
+	background: $lightestBlue;
+	max-width: 960px;
+	min-height: 500px;
+	width: 90%;
+	margin: 0 auto;
+}
+.main {
+	
+}
+
+
+
+
+
+/* ----!MEDIA QUERIES ---- */
+
+/* ---- tablette ---- */
+@media screen and (max-width: $break-large) {
+
+}
+	
+
+/* ---- mobile ---- */
+@media screen and (max-width: $break-small) {
+
+}

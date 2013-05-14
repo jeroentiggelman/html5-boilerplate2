@@ -1,0 +1,48 @@
+/* ---- !typo ---- */
+
+@font-face {
+    font-family: 'american_captainregular';
+    src: url('../fonts/american_captain/american_captain-webfont.eot');
+    src: url('../fonts/american_captain/american_captain-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/american_captain/american_captain-webfont.woff') format('woff'),
+         url('../fonts/american_captain/american_captain-webfont.ttf') format('truetype'),
+         url('../fonts/american_captain/american_captain-webfont.svg#american_captainregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'droid_sansregular';
+    src: url('../fonts/droid-sans/droidsans-webfont.eot');
+    src: url('../fonts/droid-sans/droidsans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/droid-sans/droidsans-webfont.woff') format('woff'),
+         url('../fonts/droid-sans/droidsans-webfont.ttf') format('truetype'),
+         url('../fonts/droid-sans/droidsans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'droid_sansbold';
+    src: url('../fonts/droid-sans/droidsans-bold-webfont.eot');
+    src: url('../fonts/droid-sans/droidsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/droid-sans/droidsans-bold-webfont.woff') format('woff'),
+         url('../fonts/droid-sans/droidsans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/droid-sans/droidsans-bold-webfont.svg#droid_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body, h1, h2, h3, h4, h5, h6, p, a, strong, em {
+    font-weight: normal;
+    font-style: normal;
+}
+body { font-family: 'droid_sansregular'; }
+h1 {
+    font-family: 'american_captainregular';
+    font-size: 75px;
+    text-align: center;
+}
+h2, h3 {
+    font-family: 'droid_sansbold';
+}
+h2 {font-size: 23px;}
+h3 {font-size: 20px;}
+p {line-height: 160%;}
